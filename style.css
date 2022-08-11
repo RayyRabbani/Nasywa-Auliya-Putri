@@ -1,21 +1,18 @@
-
-
-.jumbotron {
-    padding-top: 8rem;
-    background-color: #8FE3CF ;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-#Gallery {
-    background-color: #607eaa ;
-}
-
-#Vidio {
-    background-color: #fff;
-    color: #000;
-
-}
-
-section {
-    padding-top: 5rem;
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #222;
 }
 .container
 {
